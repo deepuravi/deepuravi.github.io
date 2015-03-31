@@ -110,3 +110,17 @@ border-radius:6px;
 -webkit-border-radius: 6px;
 -moz-border-radius: 6px;
 }
+
+.program-nav{
+position: absolute;
+top: 85px;
+z-index: 1;
+display:none;
+}
+
+.activities-nav{
+position: absolute;
+top: 135px;
+z-index: 1;
+display:none;
+}

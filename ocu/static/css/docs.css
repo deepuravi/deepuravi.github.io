@@ -819,6 +819,9 @@ form.bs-docs-example {
      -moz-box-shadow: inset 1px 0 0 rgba(0,0,0,.1), inset -1px 0 0 rgba(0,0,0,.1);
           box-shadow: inset 1px 0 0 rgba(0,0,0,.1), inset -1px 0 0 rgba(0,0,0,.1);
 }
+.sub-nav-custom{
+left:228px;
+}
 /* Chevrons */
 .bs-docs-sidenav .icon-chevron-right {
   float: right;
@@ -938,6 +941,9 @@ form.bs-docs-example {
   .bs-docs-sidenav {
     width: 258px;
   }
+  .sub-nav-custom{
+    left:258px;
+    }
   .bs-docs-sidenav > li > a {
     width: 230px \9; /* Override the previous IE8-9 hack */
   }
@@ -998,6 +1004,9 @@ form.bs-docs-example {
     width: 166px;
     margin-top: 20px;
   }
+  .sub-nav-custom{
+    left:166px;
+    }
   .bs-docs-sidenav.affix {
     top: 0;
   }
