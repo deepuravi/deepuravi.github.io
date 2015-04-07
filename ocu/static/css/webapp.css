@@ -29,7 +29,7 @@ text-align: right;
 }
 
 .nav>li>a {
-font-size: 20px;
+font-size: 16px;
 }
 
 .myCarousel{
@@ -38,11 +38,6 @@ margin-top: 30px;
 
 .carousel-control{
 top:80%;
-}
-
-.video-div{
-text-align:center;
-margin-top:15px;
 }
 
 .forum{
@@ -102,7 +97,9 @@ border-radius:6px;
 
 .map-link{
 display:block;
-margin-top:15px;
+border-radius:6px;
+-webkit-border-radius: 6px;
+-moz-border-radius: 6px;
 }
 
 .map-link > img{
@@ -123,4 +120,79 @@ position: absolute;
 top: 135px;
 z-index: 1;
 display:none;
+}
+
+.day{
+line-height:10px;
+}
+
+#calendar{
+margin-bottom:30px;
+}
+
+.contact{
+margin-bottom: 30px;
+font-size: 14px;
+background-color: #EEE;
+-webkit-border-radius: 6px;
+-moz-border-radius: 6px;
+border-radius: 6px;
+padding-bottom:10px;
+overflow:auto;
+}
+
+.contact-title{
+background: #FFF;
+padding: 10px;
+border-radius: 6px 6px 0 0;
+-webkit-border-radius: 6px 6px 0 0;
+-moz-border-radius: 6px 6px 0 0;
+font-size: 16px;
+font-weight: 800;
+text-align: center;
+}
+
+.contact-item{
+padding:15px;
+border-top: 1px solid #AAA;
+cursor:pointer;
+}
+
+.contact-name{
+font-weight: 800;
+font-style: italic;
+margin-right:6px;
+}
+
+.contact-email{
+color: #08F;
+cursor: pointer;
+font-size: 14px;
+margin-top:10px;
+display: block;
+}
+
+.share-title{
+text-align: center;
+font-size: 21px;
+color: #FFF;
+padding: 10px;
+font-style:italic;
+}
+
+.share-img{
+text-align:center;
+}
+
+.share-img > a > img{
+height: 75px;
+margin: 20px 5%;
+}
+
+.feed-list{
+padding:10px;
+}
+
+.feed-list > li > a{
+line-height:30px;
 }

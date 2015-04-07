@@ -781,7 +781,7 @@ form.bs-docs-example {
 -------------------------------------------------- */
 
 .bs-docs-sidenav {
-  width: 228px;
+  width: 100%;
   margin: 30px 0 0;
   padding: 0;
   background-color: #fff;
@@ -796,7 +796,7 @@ form.bs-docs-example {
   display: block;
   width: 190px \9;
   margin: 0 0 -1px;
-  padding: 14px 14px;
+  padding: 13px 14px;
   border: 1px solid #e5e5e5;
 }
 .bs-docs-sidenav > li:first-child > a {
@@ -820,7 +820,7 @@ form.bs-docs-example {
           box-shadow: inset 1px 0 0 rgba(0,0,0,.1), inset -1px 0 0 rgba(0,0,0,.1);
 }
 .sub-nav-custom{
-left:228px;
+left:220px;
 }
 /* Chevrons */
 .bs-docs-sidenav .icon-chevron-right {
@@ -939,10 +939,10 @@ left:228px;
     max-width: 970px;
   }
   .bs-docs-sidenav {
-    width: 258px;
+    width: 100%;
   }
   .sub-nav-custom{
-    left:258px;
+    left:270px;
     }
   .bs-docs-sidenav > li > a {
     width: 230px \9; /* Override the previous IE8-9 hack */
@@ -969,7 +969,7 @@ left:228px;
   /* When affixed, space properly */
   .bs-docs-sidenav {
     top: 0;
-    width: 218px;
+    width: 100%;
     margin-top: 30px;
     margin-right: 0;
   }
@@ -1001,7 +1001,7 @@ left:228px;
   }
   /* Adjust sidenav width */
   .bs-docs-sidenav {
-    width: 166px;
+    width: 100%;
     margin-top: 20px;
   }
   .sub-nav-custom{
@@ -1059,7 +1059,7 @@ left:228px;
 
   /* Sidenav */
   .bs-docs-sidenav {
-    width: auto;
+    width: 100%;
     margin-bottom: 20px;
   }
   .bs-docs-sidenav.affix {
