@@ -24,8 +24,8 @@ font-size:18px;
 }
 
 .header-search{
-margin-top: 55px;
 text-align: right;
+margin-bottom:0;
 }
 
 .nav>li>a {
@@ -187,9 +187,9 @@ display: block;
 
 .share-title{
 text-align: center;
-font-size: 21px;
+font-size: 16px;
 color: #FFF;
-padding: 10px;
+padding-top: 10px;
 font-style:italic;
 }
 
@@ -198,8 +198,8 @@ text-align:center;
 }
 
 .share-img > a > img{
-height: 75px;
-margin: 20px 5%;
+height: 30px;
+margin: 5px 5% 10px 5%;
 }
 
 .feed-list{
@@ -221,3 +221,22 @@ margin-left:10px;
 .bs-docs-sidenav{
 margin-top:0;
 }
+
+.more-link{
+padding: 10px;
+line-height: 24px;
+}
+
+.more-link > div{
+color:#fff;
+}
+
+.more-link > a{
+font-size: 18px;
+text-decoration: underline;
+}
+
+.more-link > a:hover{
+color:#C7DBE6;
+}
+
