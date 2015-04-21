@@ -35,6 +35,8 @@ padding:9px;
 
 .myCarousel{
 margin-bottom:10px;
+background: #FFF;
+border-radius: 6px;
 }
 
 .carousel-control{
@@ -239,4 +241,12 @@ text-decoration: underline;
 .more-link > a:hover{
 color:#C7DBE6;
 }
+
+.text-container{
+background: #EEE;
+padding: 5px 15px;
+border-radius: 6px;
+padding-bottom:20px;
+}
+
 
