@@ -19,10 +19,14 @@ $(document).ready(function(){
     var currentMonth = moment().format('YYYY-MM');
     var nextMonth    = moment().add('month', 1).format('YYYY-MM');
     var events = [
-        { date: currentMonth + '-' + '10', title: 'Conference', location: 'Library' },
-        { date: currentMonth + '-' + '19', title: 'Meeting', location: 'Central Park' },
-        { date: currentMonth + '-' + '23', title: 'Demonstration', location: 'Computer center' },
-        { date: nextMonth + '-' + '07',    title: 'Photo Session', location: 'Library' }
+        { date: currentMonth + '-' + '22', title: 'Computer Networks Presentation' },
+        { date: currentMonth + '-' + '22', title: 'Entrepreneurship Day' },
+        { date: currentMonth + '-' + '28', title: 'Software Presenation' },
+        { date: currentMonth + '-' + '29', title: 'Computer Networks Demo' },
+        { date: nextMonth + '-' + '05',    title: 'Software Engineering' },
+        { date: nextMonth + '-' + '06',    title: 'Computer Networks' },
+        { date: nextMonth + '-' + '08',    title: 'Honors Convocation' },
+        { date: nextMonth + '-' + '09',    title: 'MSB Commencement and Luncheon' }
     ];
 
     $('#mini-clndr').clndr({
