@@ -34,6 +34,7 @@ font-size: 16px;
 
 .myCarousel{
 margin-top: 30px;
+margin-bottom:10px;
 }
 
 .carousel-control{
@@ -43,7 +44,7 @@ top:80%;
 .forum{
 margin-top:30px;
 height:310px;
-margin-bottom: 30px;
+margin-bottom: 10px;
 font-size: 14px;
 background-color: #EEE;
 -webkit-border-radius: 6px;
@@ -127,11 +128,11 @@ line-height:10px;
 }
 
 #calendar{
-margin-bottom:30px;
+margin-bottom:10px;
 }
 
 .contact{
-margin-bottom: 30px;
+margin-bottom: 10px;
 font-size: 14px;
 background-color: #EEE;
 -webkit-border-radius: 6px;
@@ -195,4 +196,12 @@ padding:10px;
 
 .feed-list > li > a{
 line-height:30px;
+}
+
+.small-row{
+margin-left:10px;
+}
+
+.small-span{
+margin-left:10px;
 }
