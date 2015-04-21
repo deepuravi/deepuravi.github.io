@@ -29,8 +29,8 @@ margin-bottom:0;
 }
 
 .nav>li>a {
-font-size: 16px;
-padding:9px;
+font-size: 14px;
+padding: 6px 10px;
 }
 
 .myCarousel{
@@ -113,14 +113,14 @@ border-radius:6px;
 
 .program-nav{
 position: absolute;
-top: 75px;
+top: 103px;
 z-index: 1;
 display:none;
 }
 
 .activities-nav{
 position: absolute;
-top: 115px;
+top: 136px;
 z-index: 1;
 display:none;
 }
