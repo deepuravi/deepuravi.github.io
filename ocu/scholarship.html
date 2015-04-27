@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!--HEADER CONTENT-->
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/> 
+    <title>Oklahoma City University</title>
+    <meta name="description" content="Offical website of Oklahoma City University">
+    <meta name="author" content="Deepiga Ravi">
+
+    <link href="static/css/bootstrap.css" rel="stylesheet">
+    <link href="static/css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="static/css/docs.css" rel="stylesheet"/>
+    <link href="static/css/webapp.css" rel="stylesheet"/>
+    <link href="static/css/clndr.css" rel="stylesheet"/>
+
+    <link rel="icon" href="static/img/favicon.ico" />
+    
+  </head><!--HEADER CONTENT-->
+  
+  
+  <body>
+  
+    <!--MAIN CONTAINER-->
+    <div class="container">
+
+
+      <!--HEADER ROW-->
+      <div class="row">
+        <div class="span5">
+          <img src="static/img/logo-medium-white.png" class="header-logo"/>
+        </div>
+        <div class="span4">
+          <div class="header-csc"><span class="small">Department of</span> <br/>Computer Science</div>
+        </div>
+        <div class="span3">
+          <div class="share-title">Follow us on</div>
+          <div class="share-img">
+            <a href="#"><img src="static/img/facebook.png"/></a>
+            <a href="#"><img src="static/img/google-plus.png"/></a>
+            <a href="#"><img src="static/img/twitter.png"/></a>
+          </div>
+          <div class="input-append header-search">
+            <input id="searchText" class="header-search-text" type="text" placeholder="Search here.." />
+            <button class="btn" type="button"><i class="icon-search"></i></button>
+          </div>
+        </div>
+      </div><!--HEADER ROW-->
+
+      <hr/>
+
+      <!--MAIN BODY-->
+      <div class="row small-row">
+      
+        <!--LEFT SIDE NAV BAR-->
+        <div class="span3 small-span" style="position:relative;">
+          <ul class="nav nav-list bs-docs-sidenav">
+            <li><a href="index.html"><i class="icon-chevron-right"></i> Home</a></li>
+            <li><a href="about.html"><i class="icon-chevron-right"></i> About</a></li>
+            <li><a href="facilities.html"><i class="icon-chevron-right"></i> Facilities</a></li>
+            <li class="active"><a href="#" class="programNav"><i class="icon-chevron-right"></i> Program</a></li>
+            <li><a href="#" class="activitiesNav"><i class="icon-chevron-right"></i> Activities</a></li>
+            <li><a href="#"><i class="icon-chevron-right"></i> Faculty & Staff</a></li>
+            <li><a href="#"><i class="icon-chevron-right"></i> Alumni</a></li>
+            <li><a href="#"><i class="icon-chevron-right"></i> Research & Project</a></li>
+          </ul>
+          <ul class="nav nav-list bs-docs-sidenav program-nav sub-nav-custom programNav">
+            <li><a href="admission.html"><i class="icon-chevron-right"></i> Admission</a></li>
+            <li><a href="scholarship.html"><i class="icon-chevron-right"></i> Scholarship</a></li>
+          </ul>
+          <ul class="nav nav-list bs-docs-sidenav activities-nav sub-nav-custom activitiesNav">
+            <li><a href="#events"><i class="icon-chevron-right"></i> Events</a></li>
+            <li><a href="#news"><i class="icon-chevron-right"></i> News</a></li>
+          </ul>
+        </div><!--LEFT SIDE NAV BAR-->
+        
+        <!--CENTER CAROUSEL-->
+        <div class="span6 small-span">
+          <div id="myCarousel" class="carousel slide myCarousel">
+            <ol class="carousel-indicators">
+              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            </ol>
+            <!-- Carousel items -->
+            <div class="carousel-inner">
+              <div class="active item"><img src="static/img/carousal/scholarship/1.jpg"/></div>
+            </div>
+            <!-- Carousel nav -->
+            <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+            <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+          </div>
+        </div><!--CENTER CAROUSEL-->
+
+        <!--FORUM BOX-->
+        <div class="span3 small-span">
+          <div class="contact">
+            <div class="contact-title">CONTACT</div>
+            <div class="contact-item">
+              <span class="contact-name">Steven C. Agee</span><br/>Dean and Professor of Economics
+              <span class="contact-email">sagee@okcu.edu<br/>(405) 208-6111</span>
+            </div>
+            <div class="contact-item">
+              <span class="contact-name">Dr.Kewei Sha</span><br/>Head Of Department
+              <span class="contact-email">ksha@my.okcu.edu</span>
+            </div>
+          </div>
+          <!--div class="forum">
+            <div class="forum-title">FORUM</div>
+            <div class="forum-item">
+              <span class="forum-name">Deepu asks</span>Can't we change this text to something more sensible?
+              <span class="forum-more">(2 answers)</span>
+            </div>
+            <div class="forum-item">
+              <span class="forum-name">Anil says</span>This website is looking good. Please change this text too.
+              <span class="forum-more">(3 replies)</span>
+            </div>
+            <div class="forum-item">
+              <span class="forum-name">Nisha thinks</span>This year's spring break is going to be the best one ever
+              <span class="forum-more">(4 replies)</span>
+            </div>
+            <div class="forum-item">
+              <span class="forum-name">Tina asks</span>Which course is the best to learn data mining?
+              <span class="forum-more">(2 answers)</span>
+            </div>
+          </div-->
+        </div><!--FORUM BOX-->
+      </div>
+
+      <div class="row small-row">
+        <!--CAL BOX-->
+        <div class="span3 small-span" id="calendar">
+          <div id="mini-clndr">
+            <script id="mini-clndr-template" type="text/template">
+              <div class="controls">
+                <div class="clndr-previous-button">&lsaquo;</div>
+                <div class="month"><%= month %></div>
+                <div class="clndr-next-button">&rsaquo;</div>
+              </div>
+
+              <div class="days-container">
+                <div class="days">
+                  <div class="headers">
+                    <% _.each(daysOfTheWeek, function(day) { %><div class="day-header"><%= day %></div><% }); %>
+                  </div>
+                  <% _.each(days, function(day) { %><div class="<%= day.classes %>" id="<%= day.id %>"><%= day.day %></div><% }); %>
+                </div>
+                <div class="events">
+                  <div class="headers">
+                    <div class="x-button">x</div>
+                    <div class="event-header">EVENTS</div>
+                  </div>
+                  <div class="events-list">
+                    <% _.each(eventsThisMonth, function(event) { %>
+                    <div class="event">
+                      <a href="<%= event.url %>"><%= moment(event.date).format('MMMM Do') %>: <%= event.title %></a>
+                    </div>
+                    <% }); %>
+                  </div>
+                </div>
+              </div>
+
+            </script>
+          </div>
+        </div><!--CAL BOX-->
+
+        <!--FEED BOX-->
+        <div class="span6 small-span">
+          <div class="text-container">
+            <h3>Online Forms – 2015-2016 Award Year</h3>
+            <div><i>For 2014-2015 forms please contact the Office of Financial Aid at (405) 208-5211 or <a href="mailto:finaid@okcu.edu">finaid@okcu.edu</a>.</i></div>
+
+            <h5>
+            •   <a href="http://www.okcu.edu/financialaid/forms/Affidavit-of-Reason-for-Not-Filing-a-Tax-Return.pdf">Affidavit of Reason of Not Filing a Tax Return</a> (.pdf)
+            </h5>
+            <div>
+                Verify that you and/or your parents were not required to file a tax return.  Complete the form and list all income and submit the completed form with any additional documentation to the Financial Aid Office.
+            </div>
+
+            <h5>
+            •   <a href="http://www.okcu.edu/financialaid/forms/Affidavit-of-Reason-for-no-tax-transcript.pdf">Affidavit of Reason for No Tax Transcript</a> (.pdf)
+            </h5>
+            <div>
+                Per Federal Regulations to process verification the student and/or parent must submit a Tax Return Transcript.  If a Tax Return Transcript is unavailable to you and/or your parent(s) submit the completed form and required additional documentation to the Financial Aid Office for review.
+            </div>
+
+            <h5>
+            •   <a href="http://www.okcu.edu/financialaid/forms/Affidavit-of-Identity-and-Statement-of-Educational-Purpose.pdf">Affidavit of Identity and Statement of Educational Purpose</a> (.pdf)
+            </h5>
+            <div>
+                This form may be requested as part of the verification process.  Student must appear in person at the Financial Aid Office with required identification to submit and sign the form.  If student cannot appear in person follow the specific instruction for submitting the form with a Notary’s Certificate of Acknowledgment.
+            </div>
+
+            <h5>
+            •   <a href="http://www.okcu.edu/financialaid/forms/Authorization-to-Release-Financial-Information.pdf">Authorization to Release Financial Information</a> (.pdf)
+            </h5>
+            <div>
+                Student can complete form to authorization the Financial Aid office to release financial information to parents and/or spouse.  Student must submit this form in person to the Financial Aid Office.
+            </div>
+
+            <h5>
+            •   <a href="http://www.okcu.edu/financialaid/forms/Direct-Deposit-Parent-Plus.pdf">Direct Deposit - Parent Plus</a> (.pdf)
+            </h5>
+            <div>
+                All refunds are made by direct deposit in to personal checking/or savings accounts.  We must have a direct deposit form on file for any Parent that has a Parent Plus Loan.  This will ensure that if there is a refund of the Parent Plus loan the funds will be sent to the correct account.
+            </div>
+
+            <h5>
+            •   <a href="http://www.okcu.edu/financialaid/forms/Direct-Deposit.pdf">Direct Deposit</a> (.pdf)
+            </h5>
+            <div>
+                All refunds are made by direct deposit.  We must have a direct deposit form on file for students.  This will ensure that if there is a refund the funds will be sent to the correct account.
+            </div>
+
+            <h5>
+            •   <a href="http://www.okcu.edu/financialaid/forms/Emergency-Advance-Application.pdf">Emergency Advance Application</a> (.pdf)
+            </h5>
+            <div>
+                On the first day of class a student can submit the application to request an advance of any pending refund of excess aid for the current semester.  The amount is limited to $400 for undergraduate and $600 for graduate students.  Student must submit form in person to the Financial Aid Office for review.
+            </div>
+
+            <h5>
+            •   <a href="http://www.okcu.edu/financialaid/forms/Parent-Resource-Letter.pdf">Parent Resource Letter</a> (.pdf)
+            </h5>
+            <div>
+                Form is requested when parent(s) report unusually low income on the FAFSA.  The information will be used to confirm living arrangements and ensure accuracy of your application.  Student and parent must sign the form and submit to the Financial Aid Office.
+            </div>
+
+            <h5>
+            •   <a href="http://www.okcu.edu/financialaid/forms/Request-for-Additional-Financial-Aid-for-Bar-Exam-Registration-Expenses.pdf">Request for Additional Bar Exam Registration Expenses</a> (.pdf)
+            </h5>
+            <div>
+                Students may request additional aid to fund bar exam registration fees.  If approved additional Graduate Plus loan can be offered.  Submit completed form with detailed supporting documentation and or receipts to the Financial Aid Office for review.
+            </div>
+
+            <h5>
+            •   <a href="http://www.okcu.edu/financialaid/forms/Request-for-Additional-Financial-Aid-for-Education-Related-Expenses.pdf">Request for Additional Financial Aid for Education-Related Expenses</a> (.pdf)
+            </h5>
+            <div>
+                If a student has additional education related expenses that result from attending OCU they may request additional aid.  If approved additional Parent Plus loan or Graduate Plus loans can be offered.  Submit completed form with detailed supporting documentation and or receipts to the Financial Aid Office for review.
+            </div>
+
+            <h5>
+            •   <a href="http://www.okcu.edu/financialaid/forms/Request-for-Additional-Financial-Aid-for-Study-Abroad.pdf">Request for Additional Financial Aid for Study Abroad</a> (.pdf)
+            </h5>
+            <div>
+                Students who want to participate in a Study Abroad program and use financial aid must complete the form. Allow 30 days for application results.  Submit to the Financial Aid Office with all requested documentation.
+            </div>
+
+            <h5>
+            •   <a href="http://www.okcu.edu/financialaid/forms/SAP-Policy.pdf">Satisfactory Academic Progress Policy</a> (.pdf)
+            </h5>
+            <div>
+                A student must demonstrate Satisfactory Academic Progress (SAP) to receive financial aid.  The SAP Policy defines the completion rate and grade point average required to remain eligible for financial aid.
+            </div>
+
+            <h5>
+            •   <a href="http://www.okcu.edu/financialaid/forms/Student-Resource-Letter.pdf">Student Resource Letter</a> (.pdf)
+            </h5>
+            <div>
+                Form is requested when student and/or spouse report unusually low income on the FAFSA. The information will be used to confirm living arrangements and ensure accuracy of the application.  Submit completed form to the Financial Aid Office.
+            </div>
+
+            <h5>
+            •   <a href="http://www.okcu.edu/financialaid/forms/Verification-of-Child-Support-Paid-for-Dependent-Students.pdf">Verification of Child Support Paid for Dependent Students</a> (.pdf)
+            </h5>
+            <div>
+                This form may be request if you indicated on the FAFSA that either you or your parent(s) paid child support.  Submit the completed form signed by you and your parent to the Financial Aid Office.
+            </div>
+
+            <h5>
+            •   <a href="http://www.okcu.edu/financialaid/forms/Verification-of-Child-Support-Paid-for-Independent-Students.pdf">Verification of Child Support Paid for Independent Students</a> (.pdf)
+            </h5>
+            <div>
+                This form may be request if you indicated on the FAFSA that either you or your spouse paid child support.  Submit the completed form signed by you and/or your spouse to the Financial Aid Office.
+            </div>
+
+            <h5>
+            •   <a href="http://www.okcu.edu/financialaid/forms/Verification-of-SNAP-Benefits.pdf">Verification of SNAP Benefits</a> (.pdf)
+            </h5>
+            <div>
+                This form may be requested as part of the verification process if you indicated on the FAFSA that a member of the household received Food Stamps.  Submit completed form and documentation from the agency that issued the Food Stamps to the Financial Aid Office.  If you are a dependent student both student and parent must sign form. 
+            </div>
+
+            <h5>
+            •   <a href="http://www.okcu.edu/financialaid/forms/Verification-Worksheet-for-Dependent-Students.pdf">Verification Worksheet for Dependent Students</a> (.pdf)
+            </h5>
+            <div>
+                Verification is a process to review the accuracy of the information reported on your FAFSA by comparing it with your and your parent(s) Federal income tax information and/or other financial documents. Submit the completed form signed by you and a parent with any additional documentation requested to the Financial Aid Office.
+            </div>
+
+            <h5>
+            •   <a href="http://www.okcu.edu/financialaid/forms/Verification-Worksheet-for-Independent-Students.pdf">Verification Worksheet for Independent Students</a> (.pdf)
+            </h5>
+            <div>
+                Verification is a process to review the accuracy of the information reported on your FAFSA by comparing it with your (and your spouse, if married) Federal income tax information and/or other financial documents. Submit the completed form with any additional documentation requested to the Financial Aid Office.
+            </div>
+          </div>
+        </div><!--FEED BOX-->
+        
+        <!--MAPS BOX-->
+        <div class="span3 small-span">
+          <iframe width="100%" src="https://www.youtube.com/embed/nZ2iDzGI6mg" frameborder="0" allowfullscreen></iframe>
+          <div class="more-link">
+            <div>For more details, visit</div>
+            <a href="http://www.okcu.edu/">Oklahoma City University</a>
+          </div>
+          <!--a href="https://www.google.co.in/maps/place/Oklahoma+City+University/@35.494825,-97.541974,15z/data=!4m2!3m1!1s0x0:0x5b75c7d3c57b339" rel="tooltip" title="Open map" target="_blank" class="map-link">
+            <img src="static/img/ocu-map.png" style="height:228px;"/>
+          </a-->
+        </div><!--MAPS BOX-->
+      </div>
+
+      <div class="row  small-row">
+        <div class="span3 small-span">
+
+        </div>
+        
+        <!--SHARE BOX-->
+        <div class="span6 small-span">
+
+        </div><!--SHARE BOX-->
+        
+        <!--VIDEO BOX-->
+        <div class="span3 small-span">
+          
+        </div><!--VIDEO BOX-->
+      </div>
+      <!--MAIN BODY-->
+
+      <!--FOOTER-->
+      <div class="footer">
+        <hr>
+        <p>&copy; Oklahoma City University 2015</p>
+      </div><!--FOOTER-->
+
+    </div><!--MAIN CONTAINER-->
+    
+    <script src="static/js/jquery-1.8.3.js"></script>
+    <script src="static/js/moment.min.js"></script>
+    <script src="static/js/underscore.js"></script>
+    <script src="static/js/clndr.js"></script>
+    <script src="static/js/bootstrap.js"></script>
+    <script src="static/js/webapp.js"></script>
+     
+  </body>
+</html>
