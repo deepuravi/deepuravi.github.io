@@ -21,7 +21,7 @@ $(document).ready(function(){
     var events = [
         { date: currentMonth + '-' + '22', title: 'Computer Networks Presentation' },
         { date: currentMonth + '-' + '22', title: 'Entrepreneurship Day' },
-        { date: currentMonth + '-' + '28', title: 'Software Presenation' },
+        { date: currentMonth + '-' + '28', title: 'Software Presentation' },
         { date: currentMonth + '-' + '29', title: 'Computer Networks Demo' },
         { date: nextMonth + '-' + '05',    title: 'Software Engineering' },
         { date: nextMonth + '-' + '06',    title: 'Computer Networks' },
